@@ -28,8 +28,5 @@ jobs:
       - name: format
         run: make format
 
-      - name: Run Main
-        run: python main.py
-
       - name: Run tests
         run: make test
